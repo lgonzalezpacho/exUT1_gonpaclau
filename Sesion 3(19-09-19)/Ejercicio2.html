@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio 2</title>
+    <style>
+        th,td{
+            border: 1px solid black;
+        }
+        table{
+            padding: 0.5em;
+            border: 1px dashed black;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Encabezado h1</h1>
     <h2>Encabezado h2</h2>
@@ -17,5 +27,35 @@
     <p>Este parrafo es un elemento de bloque. 
     <span style="color: red">Este span, esta dentro de un parrafo, es un elemento en linea.</span>
     El parrafo termina aqui.</p>
+    
+    <table >
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Holden</td>
+                <td>Ford</td>
+            </tr>
+            <tr>
+                <td>Bill</td>
+                <td>Tench</td>
+            </tr>
+            <tr>
+                <td>Wendy</td>
+                <td>Carr</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><i>Producción</i></td>
+                <td><i>Netflix</i></td>
+            </tr>
+        </tfoot>
+    </table>
+    
 </body>
 </html>
