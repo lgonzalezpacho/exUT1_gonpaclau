@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario1id"  action="">
+        <fieldset>
+            <legend>Formulario con campo que utiliza pattern avanzado</legend>
+            <label for="campodniid">DNI: </label>
+            <input type="text" required maxlength="9" size="25" pattern="[a-zA-Z]?[0-9]{7}[0-9]?[a-zA-Z]{1}" id="campodniid" placeholder="Escriba aqui el DNI" title="El DNI debe contener 7 u 8 dígitos y una letra máyuscula o minuscula al final y una letra mayuscula o minuscula opcional al principio">
+            <input type="submit" id="botonenviarid" >
+        </fieldset>
+    </form>
+</body>
+</html>
