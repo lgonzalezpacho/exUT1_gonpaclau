@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1- Bootstrap</title>
+    <!-- Bootstrap CSS Mediante CDN --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <style>
+        .fondorojo{
+            background-color: red;
+        }
+        .fondoazul{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<!--     <div class="container">
+        Un contenedor responsivo de ancho fijo.
+    </div>
+    <div class="container-fluid">
+        Un contenedor responsivo de ancho completo.
+    </div> -->
+    <!-- <br><br><br> -->
+    <div class="row">
+        <!--Dispositivos pequeños-->
+        <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div>
+        <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div>
+        <div class="col-sm-4">Columna de tamaño 4 para dispositivos pequeños</div>
+
+    </div>
+    <br><br>
+    <h2>Distribuciones adaptables a diferentes dispositivos</h2>
+    <div class="row">
+        <div class="col-6 col-sm-9 bg-dark">col-6 col-sm-9</div>
+        <div class="col-6 col-sm-3 bg-primary">col-6 col-sm-3</div>
+    
+    </div>
+    <br><br>
+    <kbd>Escritura tipo teclado</kbd>
+    <br><br>
+    <mark>Texto resaltado</mark>
+    <br><br>
+    <h2 class="display-3">Encabezado h2 con clase display-3</h2>
+    <br><br>
+    <blockquote class="text-warning">Texto con la clase text-warning</blockquote>
+    <code>var i=100;</code>
+    <br><br>
+    <h2>Imagen responsiva</h2>
+    <img src="imagenes/imagen.png" class="img-fluid rounder mx-auto d-block">
+    <table class="table table-responsive-md">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Ciclo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laura</td>
+                <td>GP</td>
+                <td>DAW</td>
+            </tr>
+            <tr>
+                <td>Lo que sea</td>
+                <td>Lo que sea</td>
+                <td>DAW</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
