@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        table,th,td{border: 1px solid black; text-align:center;}
+    </style>
+    <title>Comparativa - gonpaclau</title>
+</head>
+<body>
+    <h1 style="text-align: center;">gonpaclau- Comparativa de coches</h1>
+    <br>
+    <p style="text-align: center;">gonpaclau - Vamos a comparar estos coches: </p>
+    <br><br>
+    <ol>
+        <li>Skoda-gonpaclau-Superb</li>
+        <li>Skoda-gonpaclau-Kodiaq</li>
+        <li>Renault-gonpaclau-Zoe</li>
+        <li>Renault-gonpaclau-Espace</li>
+    </ol>
+    <br><br>
+    <video id="SkodaSuperb" style="display: block;margin: auto;" autoplay controls loop>
+        <source src="recursos/SkodaSuperb.mp4" type="video/mp4">
+        <source src="recursos/SkodaSuperb.ogv" type="video/ogv">
+    </video>
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Modelos de coches</th>
+                <th>Skoda</th>
+                <th>Renault</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"> </td>
+                <td>Superb TDI 150 CV <br><img src="recursos/SkodaSuperb.jpg" alt="SkodaSuperb" title="Skoda Superb" id="imagen1"></td>
+                <td>Zoe Entry 88CV <br><img src="recursos/RenaultZOE.jpg" alt="RenaultZoe" title="Renault Zoe" id="imagen2"></td>
+            </tr>
+            <tr>
+                <td>Kodiaq 2.0 TDI 150CV <br><img src="recursos/SkodaKodiaq.jpg" alt="SkodaKodiaq" title="Skoda Kodiaq" id="imagen3"></td>
+                <td>Espace 1.6 DCII 30 Life 6V <br><img src="recursos/RenaultEspace.jpg" alt="RenaultEspace" title="Renault Espace" id="imagen4"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Esto es el pie de la tabla: Datos tomados de autofácil.es <br>
+                Nombre de fichero de examen:gon_pac_lau_ex171019_ej2.html</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+    <h1>Encuesta</h1>
+    <form>
+        <fieldset>
+            <legend> Rellena los datos con tu modelo de coche favorito:</legend>
+            <label for="marcaid" id="etiqueta1">Marca:</label><br>
+            <input type="text" id="marcaid" name="marca" placeholder="Introduce marca"><br>
+            <label for="modeloid" id="etiqueta2">Modelo:</label><br>
+            <input type="text" id="modeloid" name="modelo" placeholder="Introduce modelo"><br>
+            <label for="cvid" id="etiqueta3">CV: </label><br>
+            <input type="number" id="cvid" name="cv" placeholder="Introduce CV"><br>
+            <label for="colorid" id="etiqueta1">Color:</label><br>
+            <input type="text" id="colorid" name="color" placeholder="Color"><br>
+            <label for="identificadorid">Identificador de usuario: </label><br>
+            <input type="text" required maxlength="8" size="25" pattern="[A-Z]{2}[0-9]{4}[a-z]{1}[0-9]" 
+            id="identificadorid" placeholder="Identificador" name="identificador" 
+            title="Debe llevar 2 letras mayúsculas, 4 números, 1 letras minúscula,1 numero"><br>
+            <input type="submit" id="botonenviarid" >
+            <legend>Gracias. Fichero de examen gon_pac_lau_171019_ej2</legend>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
